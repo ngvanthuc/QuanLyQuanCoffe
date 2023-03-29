@@ -1,0 +1,1 @@
+var slugify = require("slugify");

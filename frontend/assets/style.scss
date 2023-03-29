@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+}
+
+.content-page,
+.card-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  height: max-content;
+  box-shadow: 0 1px 15px 0 rgba(123, 123, 123, 0.05);
+}
+
+.btn-action-group {
+  margin-top: 30px;
+}
+
+.no-data {
+  width: 100%;
+  margin-top: 10px;
+  .text-loading {
+    padding: 10px 25px;
+    background-color: #f6ffed;
+    border: 1px solid #b7eb8f;
+    .anticon {
+      margin-right: 10px;
+    }
+  }
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid #e14eca;
+  margin: 20px 0;
+}
+
+.btn-action-group {
+  text-align: right;
+}
+
+.input-group {
+  .ant-input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    color: #222a42;
+  }
+  .ant-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  .ant-input::placeholder {
+    color: #222a42;
+  }
+}
+
+.action-table {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.product-detail-thumbnail {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  .thumbnail-prod {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img-inner-prod {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .name-prod {
+    .text-name-prod {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.upload-avatar {
+  .ant-upload {
+    .ant-upload {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.active-booking {
+  color: #ff0000 !important;
+}
+
+.status-prod {
+  text-align: center;
+  color: #ff0000;
+}
+.status-active {
+  text-align: center;
+  color: green !important;
+}
+.status-new {
+  text-align: center;
+  color: #4480ff;
+}
+.status-process {
+  text-align: center;
+  color: #000;
+}
+
+.status-success {
+  text-align: center;
+  color: #f39200 ;
+}
+
+.time-create-prod {
+  text-align: center;
+  color: #000;
+}
+
+// style btn create
+.btn-create {
+  padding: 4px 20px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: #000;
+  background: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  .anticon {
+    margin-right: 10px;
+  }
+}
+.btn-create:hover {
+  border-color: #42b883;
+  color: #42b883;
+}
+
+.table-admin-custom {
+  width: 100%;
+  .table-custom {
+    width: 100%;
+    .header-table-custom {
+      width: 100%;
+      th {
+        padding: 20px 0;
+      }
+      th:last-child {
+        text-align: center;
+      }
+    }
+    .body-table-custom {
+      width: 100%;
+      tr {
+        transition: all 0.3s ease;
+        border-top: 1px solid #222a4233;
+        td {
+          padding: 15px 0;
+        }
+        td:last-child {
+          padding: 5px 0;
+          text-align: center;
+        }
+      }
+      tr:hover {
+        background: #fafafa;
+      }
+      //   tr:last-child {
+      //     border-bottom: 1px solid #fff;
+      //   }
+    }
+  }
+}
+
+.col-action {
+  width: 100px;
+}
+.col-number {
+  width: 30px;
+  text-align: center;
+}
+
+.list-prod-order {
+  width: 100%;
+  .table-order-custom {
+    width: 100%;
+    thead {
+      border-bottom: 1px solid #000;
+      th {
+        padding: 0px 3px 5px;
+      }
+      .col-unit-number {
+        text-align: center;
+      }
+      .col-quant-number {
+        text-align: center;
+      }
+      .col-price-number {
+        text-align: right;
+      }
+    }
+    tbody {
+      tr {
+        transition: all 0.3s ease;
+        td {
+          padding: 5px 3px;
+        }
+        .col-unit-number {
+          text-align: center;
+        }
+        .col-quant-number {
+          text-align: center;
+        }
+        .col-price-number {
+          text-align: right;
+        }
+      }
+      tr:hover {
+        background: #fafafa;
+      }
+      .total-price {
+        border-top: 1px solid #000;
+        td {
+          padding: 5px 3px;
+        }
+        .total-price-text {
+          text-align: center;
+        }
+        .total-price-number {
+          text-align: right;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.switch-table {
+  width: 100%;
+  .title-switch {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .row-content-switch {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+    .label-switch {
+      width: 30%;
+    }
+    .content-switch {
+      width: 70%;
+      .select-switch {
+        width: 50%;
+      }
+    }
+  }
+}
